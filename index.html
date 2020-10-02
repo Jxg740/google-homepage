@@ -4,37 +4,44 @@
         <title>Google</title>
         <meta charset='UTF-8'>
         <link rel='stylesheet' href='css/styles.css'>
+        <script src="https://kit.fontawesome.com/acba01fb8c.js" crossorigin="anonymous"></script>
     </head>
     <body>
         <nav>
-            <ul>
-                <li>About</li>
-                <li>Store</li>
-            </ul>
-            <ul>
-                <li>Gmail</li>
-                <li>Images</li>
-                <li>#</li>
-                <li>Login</li>
-            </ul>
+            <div class='left'>
+                <a href='#' class='link'>About</a>
+                <a href='#' class='link'>Store</a>
+            </div>
+            <div class='right'>
+                <a href='#' class='link'>Gmail</a>
+                <a href='#' class='link'>Images</a>
+                <a href='#' class='link'><i class="fas fa-th fa-2x"></i></a>
+                <a href='#' class='link'>Login</a>        
+            </div>    
         </nav>
         <div>
-            <img src='https://www.google.com/images/branding/googlelogo/1x/googlelogo_color_272x92dp.png' alt='Google.com Logo'>
-            <form>
-                <input type='search' placeholder='Search'>
-            </form>
+            <img id='image' src='https://www.google.com/images/branding/googlelogo/1x/googlelogo_color_272x92dp.png' alt='Google.com Logo'>
+            <div id='searchbar'>
+                <form id='search-border'>
+                   <label for='search'></label>
+                   <i class="fab fa-sistrix"></i>
+                    <input type='search' id='search'>               
+                </form>
+                <button>Google Search</button>
+                <button>I'm Feeling Lucky</button>
+            </div>
         </div>
         <footer>
-            <ul id='left-foot'>
-                <li>Advertising</li>
-                <li>Business</li>
-                <li>How Search Works</li>
-            </ul>
-            <ul id='right-foot'>
-                <li>Privacy</li>
-                <li>Terms</li>
-                <li>Settings</li>
-            </ul>
+            <div class='left'>
+                <a href='#' class='link'>Advertising</a>
+                <a href='#' class='link'>Business</a>
+                <a href='#' class='link'>How Search Works</a>
+            </div> 
+            <div class='right'>
+                <a href='#' class='link'>Privacy</a>
+                <a href='#' class='link'>Terms</a>
+                <a href='#' class='link'>Settings</a>
+            </div>
         </footer>
     </body>
 </html>
