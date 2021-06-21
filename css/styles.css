@@ -5,6 +5,10 @@
     
 }
 
+*:focus {
+    outline: none;
+}
+
 /*Typography*/
 a {
     text-decoration: none;
@@ -56,11 +60,6 @@ footer{
     
 }
 
-#search {
-    width: 87%;
-    height: 34px;
-    border-style: none;
-}
 
 #search-border {
     display: block;
@@ -68,6 +67,14 @@ footer{
     border: solid 1px rgb(146, 144, 144);
     border-radius: 20px;
     width: 400px;
+}
+
+
+#search {
+    width: 87%;
+    height: 34px;
+    border-style: none;
+    border: 0;
 }
 
 button {
